@@ -1,0 +1,39 @@
+{
+  "name": "webgl2d",
+  "version": "0.0.1",
+  "description": "A 2D canvas style api for webGL",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/sqircle/webgl-2d",
+  "repository": "git://github.com/sqircle/webgl-2d.git",
+  "author": {
+    "name": "K-2052",
+    "site": "http://twitter.com/k_2052"
+  },
+  "dependencies": {
+    "gl-matrix": "^2.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "coffee-script": "^1.8.0",
+    "coffeeify": "^0.7.0",
+    "debowerify": "^0.9.1",
+    "gulp": "^3.8.9",
+    "gulp-bower": "0.0.7",
+    "gulp-coffee": "^2.2.0",
+    "gulp-concat": "2.4.1",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-haml-coffee": "0.0.6",
+    "gulp-load-plugins": "^0.7.1",
+    "gulp-mocha-phantomjs": "git://github.com/bleadof/gulp-mocha-phantomjs.git#add-phantomjs-cli-params",
+    "gulp-open": "^0.3.0",
+    "gulp-plumber": "^0.6.5",
+    "gulp-ruby-sass": "^0.1.0",
+    "run-sequence": "^1.0.1",
+    "uglifyify": "^2.6.0",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
