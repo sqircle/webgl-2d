@@ -5,20 +5,20 @@
   "homepage": "https://github.com/sqircle/webgl-2d",
   "keywords": [],
   "author": "K-2052 <k@2052.me>",
-  "main": "dist/js/webgl2d.js",
+  "main": "dist/js/WebGL2D.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/sqircle/webgl-2d.git"
   },
   "direct": true,
   "dependencies": {
+    "jquery": "~2.1.1"
   },
   "devDependencies": {
     "sinon": "~1.9.1",
     "chai": "~1.9.1",
     "chai-jquery": "~1.2.1",
     "mocha": "~1.18.2",
-    "sinon-chai": "~2.5.0",
-    "color": "~2.4.2"
+    "sinon-chai": "~2.5.0"
   }
 }

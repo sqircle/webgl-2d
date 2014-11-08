@@ -1,5 +1,5 @@
 {
-  "name": "webgl2d",
+  "name": "WebGL2D",
   "version": "0.0.1",
   "description": "A 2D canvas style api for webGL",
   "main": "index.js",
@@ -11,7 +11,10 @@
     "site": "http://twitter.com/k_2052"
   },
   "dependencies": {
-    "gl-matrix": "^2.1.0"
+    "gl-matrix": "^2.1.0",
+    "mixto": "^1.0.0",
+    "onecolor": "^2.4.2",
+    "property-accessors": "^1.1.0"
   },
   "devDependencies": {
     "browserify": "^6.2.0",

@@ -22,12 +22,12 @@ gulp.task 'dist:js', ->
     debug: true
     entries: ['./index.js']
     extensions: ['.js']
-    standalone: "Webgl2d"
+    standalone: "WebGL2D"
   .transform 'debowerify'
   .bundle()
 
   # Pass desired file name to browserify with vinyl
-  .pipe source 'webgl2d.js'
+  .pipe source 'WebGL2D.js'
 
   # Start piping stream to tasks!
   .pipe gulp.dest 'dist/js'
@@ -61,6 +61,16 @@ gulp.task "test", ->
       'webSecurityEnabled': false    
     }
   )
+
+# Build Examples
+gulp.task "build:examples", ->
+  gulp.src('src/examples/coffee/*.coffee')
+    .pipe coffee(bare: true)
+    .pipe gulp.dest('./examples/js')
+    
+  gulp.src('src/examples/*.hamlc')
+    .pipe(hamlc())
+    .pipe(gulp.dest('./examples'))
 
 # Register Tasks
 gulp.task 'build', ->

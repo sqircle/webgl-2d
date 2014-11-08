@@ -1,1 +1,1 @@
-module.exports = require('./lib/webgl2d.js');
+module.exports = require('./lib/WebGL2D.js');
